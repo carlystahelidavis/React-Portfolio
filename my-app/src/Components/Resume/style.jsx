@@ -13,7 +13,7 @@ export const Title = styled.h1`
 color: white;
 `
 
-export const ContactDetails = styled.div`
+export const ContactInformation = styled.div`
 border-radius: 25px;
 margin: 1rem 1rem 1rem 1rem;
 height: 50%;
@@ -23,7 +23,7 @@ background-color: white
 
 `
 
-export const WorkExperienceContainer = styled.div`
+export const WorkContainer = styled.div`
 border-radius: 25px;
 border: 3px solid black;
 display: flex;
@@ -35,7 +35,7 @@ flex-direction: row;
 background-color: black;
 `
 
-export const WorkExperienceItem = styled.div`
+export const WorkItem = styled.div`
 display: flex;
 justify-content: center;
 flex-direction: row;
@@ -51,19 +51,19 @@ background-color: white;
 flex: wrap;
 `
 
-export const WorkExperienceTitle = styled.h2`
+export const WorkTitle = styled.h2`
 color: black;
 `
 
-export const WorkExperienceLocation = styled.div`
+export const WorkLocation = styled.div`
 color: gray;
 `
 
-export const WorkExperienceTimeframe = styled.div`
+export const WorkTimeframe = styled.div`
 color: gray;
 `
 
-export const WorkExperienceDescription = styled.div`
+export const WorkDescription = styled.div`
 color: black;
 text-align: left;
 padding: 1rem 1rem 1rem 1rem;

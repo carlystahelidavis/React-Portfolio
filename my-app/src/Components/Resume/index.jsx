@@ -1,40 +1,40 @@
 import {
     ContactContainer,
-    ContactDetails,
+    ContactInformation,
     Title,
-    WorkExperienceContainer,
-    WorkExperienceDescription,
-    WorkExperienceItem,
-    WorkExperienceLocation,
-    WorkExperienceTimeframe,
-    WorkExperienceTitle,
+    WorkContainer,
+    WorkDescription,
+    WorkItem,
+    WorkLocation,
+    WorkTimeframe,
+    WorkTitle,
     } from "./styles";
     
     export const Resume = ({ resume }) => {
     return (
     <div>
     <ContactContainer>
-    <Title>Joshua Davis</Title>
-    <ContactDetails>
+    <Title>Carly Staheli</Title>
+    <ContactInformation>
     <div>
     <h2>Contact:</h2>
-    <p>(801) 687-8089</p>
-    <p>jmichaeldavis17@gmail.com</p>
+    <p>801-616-6310</p>
+    <p>carlystaheli@gmail.com</p>
     </div>
-    </ContactDetails>
+    </ContactInformation>
     </ContactContainer>
-    <WorkExperienceContainer>
+    <WorkContainer>
     {resume.map((info) => (
-    <WorkExperienceItem>
-    <WorkExperienceTitle>{info.title}</WorkExperienceTitle>
-    <WorkExperienceLocation>{info.location}</WorkExperienceLocation>
-    <WorkExperienceTimeframe>{info.timeline}</WorkExperienceTimeframe>
-    <WorkExperienceDescription>
+    <WorkItem>
+    <WorkTitle>{info.title}</WorkTitle>
+    <WorkLocation>{info.location}</WorkLocation>
+    <WorkTimeframe>{info.timeline}</WorkTimeframe>
+    <WorkDescription>
     {info.description}
-    </WorkExperienceDescription>
-    </WorkExperienceItem>
+    </WorkDescription>
+    </WorkItem>
     ))}
-    </WorkExperienceContainer>
+    </WorkContainer>
     </div>
     );
     };
