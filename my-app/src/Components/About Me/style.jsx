@@ -13,12 +13,7 @@ align-items: center;
 margin: 2rem 2rem 2rem 2rem;
 `
 
-export const AboutMeImage = styled.img`
-width: 25%;
-border-radius: 25px;
-display: block;
-`
-export const AboutMeDescription = styled.div`
+export const AboutMeExplanation = styled.div`
 color: black;
 width: 50%;
 text-align: left;

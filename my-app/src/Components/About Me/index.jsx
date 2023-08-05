@@ -1,13 +1,13 @@
-import { AboutMeContainer, AboutMeDescription, AboutMeImage } from "./styles"
+import { AboutMeExplanation } from "./style"
+import { AboutMeContainer, AboutMeExplanation } from "./styles"
 
 
 export const AboutMe = () => {
     return (
         <AboutMeContainer>
-            <AboutMeImage />
-            <AboutMeDescription>
-                Hi, my name is Joshua Davis. I am nearly finished with a coding bootcamp hosted by the University of Utah. I am married and have two dogs. I have experience in marketing, real estate, and sales. I am excited to switch career paths to web development.
-            </AboutMeDescription>
+            <AboutMeExplanation>
+                Hi, my name is Carly Staheli.  I am currently finishing up my coding bootcamp with The University of Utah.  I am married for just over four years, with two dogs as my children.  I am currently working in the solar industry and am loving learning about this new field.
+            </AboutMeExplanation>
         </AboutMeContainer>
     )
 }
