@@ -67,32 +67,32 @@ function App() {
   ];
   const resume = [
     {
-      title: "Project Manager and Analyst",
-      location: "Landd, LLC - Lehi, UT",
-      timeline: "February 2021 to January 2023",
+      title: "Receptionist",
+      location: "Rural Power and Light - Orem, UT",
+      timeline: "March 2023 - Present",
       description:
-        "I worked for a land development company that focused on the development of subdivisions and multi-family properties. I initially was hired as a land analyst, but I quickly learned and gained more responsibility. After 6 months I became in charge of managing our projects, meeting with city planners and managers, coordinating with our vendors, understanding the city code relating to each project, updating our investors, and presenting in front of city council. I essentially became the person to do anything and everything that my boss needed.",
+        "I am currently working at Rural Power and Light as a receptionist.  I manage the front office, take and direct curstomer calls to employees, manage other office tasks.  I also have joined the marketing team and am helping coordinate campaign and marketing shoots, and ad campaigns.",
     },
     {
-      title: "Sales Professional",
-      location: "Progrexion - Provo, UT",
-      timeline: "October 2019 to February 2021",
+      title: "Floral Designer",
+      location: "Stems by Staheli - Spanish Fork, UT",
+      timeline: "May 2020 - Present",
       description:
-        "I was a credit consultant. I answered 60-80 calls a day and sold our credit repair service to these leads. I quickly became a top salesman in my team. I averaged 8 sales per day with a high of 16 sales in one shift.",
+        "I am currently the owner of my own business doing floral design.  I work in the wedding and event industry.  I also would consider myself a freelance designer and help other companies work on their events as well.",
     },
     {
-      title: "Digital Marketing Specialist",
-      location: "Canyonwall, LLC - Provo, UT",
-      timeline: "August 2018 to October 2019",
+      title: "Receptionist",
+      location: "Maple Ridge Chiropractic and Massage - Springville, UT",
+      timeline: "August 2019 to October 2021",
       description:
-        "I worked for Canyonwall. I managed Amazon marketing campaigns for over two dozen companies. I was able to consistently increase client success while keeping to their marketing budget. In addition, I created graphics using Adobe Illustrator and Adobe Photoshop to improve product detail pages.",
+        "I worked at Maple Ridge Chiropractic and Massage as a part time receptionist.  I managed over all office responsibilites with payments, phone calls, setting appointments, and greeting customers.  I took care of cleaning the office and set up the customers to prepare for their appointments.",
     },
     {
-      title: "Restaurant Worker",
-      location: "Cafe Zupas - Spanish Fork, UT",
-      timeline: "August 2015 to January 2016",
+      title: "Resturant Worker",
+      location: "Joe Banditos - Springville, UT",
+      timeline: "June 2016 to January 2018",
       description:
-        "I prepared and served food for our customers and aided in maintaining a clean and presentable restaurant.",
+        "At Joe Banditos I was a Hostess and a busser.  I would seat customers, take drinks, clean up tables, set up take out orders, and take payments.",
     },
   ];
   const [currentPage, setCurrentPage] = useState("about-me");
