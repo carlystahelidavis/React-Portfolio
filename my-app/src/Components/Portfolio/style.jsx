@@ -39,7 +39,7 @@ export const ProjectName = styled.div`
 
 export const DeployedLinkButton = styled.a`
   color: white;
-  background-color: black;
+  background-color: light blue;
   font-size: large;
   font-weight: bold;
   padding: 1rem 1rem 1rem 1rem;
