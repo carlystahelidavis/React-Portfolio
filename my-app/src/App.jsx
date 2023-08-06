@@ -7,6 +7,7 @@ import { AboutMe } from "./Components/About Me";
 import { Header } from "./Components/Header";
 import { NavBar } from "./Components/NavBar";
 import { Footer } from "./Components/Footer";
+import { useState } from "react";
 
 function App() {
   const pages = [
@@ -96,6 +97,7 @@ function App() {
         "At Joe Banditos I was a Hostess and a busser.  I would seat customers, take drinks, clean up tables, set up take out orders, and take payments.",
     },
   ];
+
   const [currentPage, setCurrentPage] = useState("about-me");
 
   const renderCurrentPage = () => {
