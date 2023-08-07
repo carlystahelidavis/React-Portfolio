@@ -73,7 +73,7 @@ function App() {
       location: "Rural Power and Light - Orem, UT",
       timeline: "March 2023 - Present",
       description:
-        "I am currently working at Rural Power and Light as a receptionist.  I manage the front office, take and direct curstomer calls to employees, manage other office tasks.  I also have joined the marketing team and am helping coordinate campaign and marketing shoots, and ad campaigns.",
+        "I currently manage the front office, take and direct curstomer calls to employees, manage other office tasks.  I also have joined the marketing team and am helping coordinate campaign and marketing shoots, and ad campaigns.",
     },
     {
       title: "Floral Designer",
@@ -87,7 +87,7 @@ function App() {
       location: "Maple Ridge Chiropractic and Massage - Springville, UT",
       timeline: "August 2019 to October 2021",
       description:
-        "I worked at Maple Ridge Chiropractic and Massage as a part time receptionist.  I managed over all office responsibilites with payments, phone calls, setting appointments, and greeting customers.  I took care of cleaning the office and set up the customers to prepare for their appointments.",
+        "As a receptionist I managed payments, phone calls, setting appointments, and greeting customers.  I took care of cleaning the office and set up the customers to prepare for their appointments.",
     },
     {
       title: "Resturant Worker",
