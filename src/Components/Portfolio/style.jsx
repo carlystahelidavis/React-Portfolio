@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const ProjectContainer = styled.div`
   display: flex;
@@ -14,17 +13,17 @@ export const ProjectContainer = styled.div`
 `;
 
 export const ProjectBox = styled.div`
-width: 50rem;
-height:  25%;
-border-radius: 25px;
-background-color: white;
-flex: wrap;
-margin: 1rem 1rem 1rem 1rem;
-display: flex;
-flex-direction: column;
-align-items: center;
-border: 3px solid black;
-`
+  width: 50rem;
+  height: 25%;
+  border-radius: 25px;
+  background-color: #faa275;
+  flex: wrap;
+  margin: 1rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+`;
 
 export const ProjectName = styled.div`
   display: flex;
@@ -44,6 +43,7 @@ export const DeployedLinkButton = styled.a`
   font-weight: bold;
   padding: 1rem 1rem 1rem 1rem;
   border-radius: 2rem;
+  border: 3px white;
   box-sizing: border-box;
   width: 8rem;
   display: flex;
@@ -53,8 +53,8 @@ export const DeployedLinkButton = styled.a`
   justify-content: center;
   height: 2.5rem;
   &:hover {
-  color: black;
-  background-color: white;
-  border: 3px solid black;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
   }
-`
+`;

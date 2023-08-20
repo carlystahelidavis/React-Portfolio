@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AboutMeContainer = styled.div`
-  background-color: cream;
+  background-color: #faa275;
   height: 35rem;
   width: 95%;
   border-radius: 25px;
@@ -17,4 +17,7 @@ export const AboutMeExplanation = styled.div`
   color: black;
   width: 50%;
   text-align: left;
+  font-size: 1.75rem;
+  font-weight: bold;
+  letter-spacing: 0.4rem;
 `;

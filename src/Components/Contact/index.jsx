@@ -3,11 +3,11 @@ import { ContactForm } from "./style";
 export const Contact = () => {
   return (
     <ContactForm>
-      <p>Name:</p>
+      <p>NAME:</p>
       <input placeholder="Name"></input>
-      <p>Email Address:</p>
+      <p>EMAIL ADDRESS:</p>
       <input placeholder="Email"></input>
-      <p>Message:</p>
+      <p>MESSAGE:</p>
       <input placeholder="Enter message details here"></input>
     </ContactForm>
   );

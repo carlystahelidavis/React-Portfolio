@@ -7,16 +7,12 @@ export const FooterContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  background-color: grey;
+  background-color: #985277;
   position: fixed;
   bottom: 0;
 `;
 export const FooterName = styled.div`
   font-size: 4rem;
   color: black;
-`;
-
-export const FooterLinks = styled.div`
-  font-size: 4rem;
-  color: black;
+  font-weight: bold;
 `;

@@ -3,8 +3,8 @@ import { HeaderContainer, HeaderName, Subheader } from "./style";
 export const Header = () => {
   return (
     <HeaderContainer>
-      <HeaderName>Carly Staheli</HeaderName>
-      <Subheader>Personal Coding Portfolio</Subheader>
+      <HeaderName>CARLY STAHELI</HeaderName>
+      <Subheader>PERSONAL CODING PORTFOLIO</Subheader>
     </HeaderContainer>
   );
 };

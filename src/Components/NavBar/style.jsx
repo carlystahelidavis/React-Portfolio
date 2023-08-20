@@ -12,7 +12,7 @@ background-color: white;
 
 export const NavBarOptions = styled.button`
   color: white;
-  background-color: black;
+  background-color: #ff8c61;
   font-size: large;
   font-weight: bold;
   padding: 1rem 1rem 1rem 1rem;
@@ -21,7 +21,7 @@ export const NavBarOptions = styled.button`
   box-sizing: border-box;
   &:hover {
     color: black;
-    background-color: white;
+    background-color: #faa275;
     border: 1rem solid inside black;
   }
 `;

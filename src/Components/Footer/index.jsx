@@ -4,7 +4,6 @@ export const Footer = () => {
   return (
     <FooterContainer>
       <FooterName>Thanks for visiting my portfolio!</FooterName>
-      <FooterLinks></FooterLinks>
     </FooterContainer>
   );
 };
