@@ -15,3 +15,8 @@ export const FooterName = styled.div`
   font-size: 4rem;
   color: black;
 `;
+
+export const FooterLinks = styled.div`
+  font-size: 4rem;
+  color: black;
+`;
