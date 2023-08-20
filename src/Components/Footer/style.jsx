@@ -12,7 +12,7 @@ export const FooterContainer = styled.div`
   bottom: 0;
 `;
 export const FooterName = styled.div`
-  font-size: 4rem;
+  font-size: 2.5rem;
   color: black;
   font-weight: bold;
 `;
